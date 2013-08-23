@@ -36,7 +36,6 @@ public class servlet extends HttpServlet {
             String gender = request.getParameter("gender");
               
             JSONObject enviarJson = datos.llenarTabla(name, id, gender);    
-            System.out.println(enviarJson.toString());
             out.println(enviarJson.toString());
         } finally {            
             out.close();
