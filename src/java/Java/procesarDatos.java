@@ -57,7 +57,6 @@ public class procesarDatos {
                 }
             }
             json = convertir(rs);
-            System.out.println(json);
             s.close();
             Desconectar();
         } catch (SQLException | JSONException e) {
@@ -94,10 +93,5 @@ public class procesarDatos {
             obj = obj.append("row", objeto);
         }
         return obj;
-    }
-    
-    public static void main(String[] args) {
-        procesarDatos a = new procesarDatos();
-        a.llenarTabla("ZONA 3", "BARRIO LOS NOGALES", "ZONA3");
     }
 }
