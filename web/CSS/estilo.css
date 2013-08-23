@@ -1,0 +1,48 @@
+/**
+ *
+ * @author Santiago García Ortiz
+ */
+
+html { height: 100% }
+
+body {
+    background-color: white;
+    font-family: "Arial";
+    font-size: smaller;
+    text-align: center;
+    height: 100%; 
+    margin: 4px; 
+    padding: 0
+}
+
+body h3{
+    background-color: #b7c8ff;
+}
+
+table.especial {
+    border: 3px;
+    border-color: black;
+    border-collapse: collapse;
+    border-style: inset;
+    background-color: ghostwhite;
+    margin: 0 auto;
+    text-align: center;
+}
+
+tr.cabecera{
+    background-color: #b7c8ff;
+    border-style: groove;
+}
+
+table.especial tr:hover {
+    background-color: #ccccff;
+    cursor: pointer;
+}
+
+
+#login-facebook{
+    float: top;
+    width: 15%;
+    height:15%;
+    text-align: center;
+}
